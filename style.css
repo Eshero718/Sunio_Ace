@@ -1,0 +1,66 @@
+header {
+    background-color: darkgreen;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: url('images.jpg') no-repeat center center/cover;
+
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: darkgreen;
+}
+
+.hero-content .highlight {
+    color: #00ff00;
+}
+
+.hero-content p {
+    font-size: 18px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buy-btn {
+    background-color: red;
+    color: white;
+}
+
+.explore-btn {
+    background-color: green;
+    color: white;
+}
+
+
+
